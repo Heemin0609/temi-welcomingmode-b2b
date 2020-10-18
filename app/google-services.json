@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "715178185596",
+    "firebase_url": "https://temiprogect.firebaseio.com",
+    "project_id": "temiprogect",
+    "storage_bucket": "temiprogect.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:715178185596:android:92801a9d2cc7095dd64af9",
+        "android_client_info": {
+          "package_name": "com.robotemi.welcomingbtob"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "715178185596-hnadgolae4jhcjbkci96ttnni4hqqtdv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAI0rs_ijhJT7jX8tXE9RzZd7zIohEybd0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "715178185596-hnadgolae4jhcjbkci96ttnni4hqqtdv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:715178185596:android:1c9085439c7aafcdd64af9",
+        "android_client_info": {
+          "package_name": "org.techtown.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "715178185596-hnadgolae4jhcjbkci96ttnni4hqqtdv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAI0rs_ijhJT7jX8tXE9RzZd7zIohEybd0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "715178185596-hnadgolae4jhcjbkci96ttnni4hqqtdv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

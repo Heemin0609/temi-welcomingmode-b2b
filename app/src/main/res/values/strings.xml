@@ -1,0 +1,82 @@
+<resources>
+    <string name="app_name">wbjin_test_mode</string>
+    <string name="welcome">안녕하세요, 테미에요</string>
+    <string name="greeting">안녕하세요, 테미에요</string>
+    <string name="admin">Admin</string>
+
+    <string name="fragment_config">Welcoming skill configuration</string>
+    <string name="fragment_custom_greeter">Customize User Greeter Text message </string>
+
+    <string name="feature_walk">이동하기</string>
+    <string name="feature_play">놀이</string>
+    <string name="feature_call">영상통화</string>
+
+    <string name="feature_take_photo">사진찍기</string>
+    <string name="feature_follow">따라와</string>
+    <string name="feature_stop_follow">기다려</string>
+    <string name="feature_play_music">음악 재생</string>
+    <string name="feature_play_weather">날씨</string>
+    <string name="feature_play_youtube">유튜브</string>
+    <string name="feature_play_video">비디오</string>
+    <string name="feature_play_airdroid">AirDroid</string>
+    <string name="sub_title_play">테미와 놀아볼까요?</string>
+    <string name="sub_title_call">영상통화 할래요?</string>
+    <string name="sub_title_walk">목적지를 선택해 주세요</string>
+
+    <string name="top_bar_searching_text">Searching</string>
+    <string name="top_bar_following_text">Following</string>
+    <string name="top_bar_obstacle_detected_text">Obstacle</string>
+    <string name="top_bar_hello_text">안녕하세요</string>
+
+    <string name="location_home_base">Home base</string>
+    <string name="settings_done">DONE</string>
+    <string name="custom_toggle_off">OFF</string>
+    <string name="custom_toggle_on">ON</string>
+    <string name="settings_greet_user">Greet User</string>
+    <string name="settings_greet_user_description">temi will recognize when a person is in front of it and greet its’ user with a displayed message</string>
+    <string name="settings_default_message">Default message</string>
+    <string name="settings_custom">Custom</string>
+    <string name="settings_custom_description">(Customize the displayed message text)</string>
+    <string name="settings_default_message_description">(Hello)</string>
+    <string name="settings_voice_greeter_description">When enabled temi will also greet by voice</string>
+    <string name="settings_voice_greeter">Voice Greeter</string>
+    <string name="settings_open_app_list">Open app list</string>
+    <string name="custom_input_hint">INPUT TEXT</string>
+    <string name="custom_max_length" translatable="false">12</string>
+    <string name="custom_alert">Message can’t be empty</string>
+    <string name="settings_location_announcements">Location Announcements</string>
+    <string name="settings_location_announcements_describe">temi will announce that he is going to a location, and when he has arrived</string>
+    <string name="go_to_start_tts">%s 위치로 이동 할게요.</string>
+    <string name="go_to_complete_tts">%s 위치에 도착했어요.</string>
+
+    <!-- DeviceListActivity -->
+    <string name="scanning">장치를 찾고있어요...</string>
+    <string name="select_device">장치와 연결됨</string>
+    <string name="none_paired">No devices have been paired</string>
+    <string name="none_found">장치를 못 찾았어요</string>
+    <string name="title_paired_devices">Paired Devices</string>
+    <string name="title_other_devices">Other Available Devices</string>
+    <string name="button_scan">장치 찾기</string>
+    <string name="btn_send">Send</string>
+    <string name="btn_send2">Send2</string>
+
+    <!-- Bluetooth -->
+    <string name="bt_title">Bluetooth</string>
+    <string name="bt_state_init">초기화 완료</string>
+    <string name="bt_state_wait">대기중...(디바이스를 선택하세요)</string>
+    <string name="bt_state_connect">연결중</string>
+    <string name="bt_state_connected">연결성공</string>
+    <string name="bt_state_error">error</string>
+    <string name="bt_not_enabled_leaving">Bluetooth is not enabled. Set the bluetooth on at phone settings.</string>
+    <string name="bt_cmd_sending_error">Transaction failed</string>
+    <string name="disconnect">연결해제</string>
+    <string name="discoverable_desc">Action request discoverable.</string>
+    <string name="discoverable_fail_desc">Cannot set discoverable.</string>
+
+    <string name="play">Play</string>
+    <string name="pause">Pause</string>
+    <string name="paused">Paused…</string>
+    <string name="playing">Playing…</string>
+
+
+</resources>

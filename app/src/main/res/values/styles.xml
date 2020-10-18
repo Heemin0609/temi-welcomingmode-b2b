@@ -1,0 +1,17 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="@style/SkillTheme">
+        <item name="fontFamily">@font/open_sans</item>
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+
+    <style name="customToggleText">
+        <item name="android:textColor">@color/gray200</item>
+        <item name="android:fontFamily">@font/open_sans_regular</item>
+        <item name="fontFamily">@font/open_sans_regular</item>
+        <item name="android:textSize">24sp</item>
+    </style>
+
+</resources>

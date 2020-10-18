@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.robotemi.welcomingbtob">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <application
+        android:name=".app.App"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".TableSetActivity"></activity>
+
+        <meta-data
+            android:name="@string/metadata_skill"
+            android:value="@string/app_name" />
+        <meta-data
+            android:name="@string/metadata_visibility"
+            android:value="FALSE" />
+        <meta-data
+            android:name="@string/metadata_kiosk"
+            android:value="TRUE" />
+        <meta-data
+            android:name="com.robotemi.sdk.metadata.ACTIONS"
+            android:value="                     home.video,                     home.talk,                     home.turn,                     home.go,                     home.back,                     home.turn,                     home.stop,                     home.turnright,                     home.turnleft,                     home.time,                     home.showtopbar,                     home.hidetopbar,                     home.spraystart,                     home.spraystop,                     home.tiltup,                     home.tiltdown,                     home.name,                     home.presentation,                     home.rotation,                     home.pledge                      " />
+
+        <activity
+            android:name=".MainActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="unspecified">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+            <meta-data
+                android:name="com.robotemi.sdk.metadata.UI_MODE"
+                android:value="@integer/metadata_ui_mode_fullscreen" />
+            <meta-data
+                android:name="com.robotemi.sdk.metadata.UI_FLAG"
+                android:value="@integer/metadata_ui_flag_hide_top_bar" />
+        </activity>
+        <activity
+            android:name=".settings.SettingsActivity"
+            android:screenOrientation="unspecified">
+            <meta-data
+                android:name="com.robotemi.sdk.metadata.UI_MODE"
+                android:value="@integer/metadata_ui_mode_fullscreen" />
+            <meta-data
+                android:name="com.robotemi.sdk.metadata.UI_FLAG"
+                android:value="@integer/metadata_ui_flag_hide_top_bar" />
+        </activity>
+        <activity
+            android:name=".DeviceListActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/select_device"
+            android:theme="@android:style/Theme.Dialog"></activity>
+        <activity
+            android:name=".BookActivity"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".MenuActivity"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".ResrvActivity"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".SettActivity"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".OilActivity"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".ShrimpActivity"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".FomoActivity"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".RoseActivity"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".GgarActivity"
+            android:launchMode="singleTask" />
+    </application>
+
+</manifest>

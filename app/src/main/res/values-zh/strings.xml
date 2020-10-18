@@ -1,0 +1,83 @@
+<resources>
+    <string name="app_name">欢迎模式B2B</string>
+    <string name="welcome">欢迎</string>
+    <string name="greeting">你好</string>
+    <string name="admin">管理员</string>
+
+    <string name="fragment_config">欢迎模式技能配置</string>
+    <string name="fragment_custom_greeter">自定义用户欢迎语</string>
+
+    <string name="feature_walk">前往</string>
+    <string name="feature_play">更多</string>
+    <string name="feature_call">电话</string>
+
+    <string name="feature_take_photo">拍照</string>
+    <string name="feature_follow">跟随</string>
+    <string name="feature_stop_follow">停止跟随</string>
+    <string name="feature_play_music">音乐</string>
+    <string name="feature_play_weather">현재 날씨</string>
+    <string name="feature_play_youtube">유튜브</string>
+    <string name="feature_play_video">비디오</string>
+    <string name="feature_play_airdroid">AirDroid</string>
+    <string name="sub_title_play">试一下temi的最佳功能</string>
+    <string name="sub_title_call">想和销售人员谈谈吗？</string>
+    <string name="sub_title_walk">选择您的目的地</string>
+
+    <string name="top_bar_searching_text">正在搜索</string>
+    <string name="top_bar_following_text">正在跟随</string>
+    <string name="top_bar_obstacle_detected_text">障碍物</string>
+    <string name="top_bar_hello_text">你好</string>
+
+    <string name="location_home_base">充电桩</string>
+    <string name="settings_done">完成</string>
+
+    <string name="custom_toggle_off">关闭</string>
+    <string name="custom_toggle_on">打开</string>
+    <string name="settings_greet_user">和用户打招呼</string>
+    <string name="settings_greet_user_description">当有人站在temi前面时，它会识别出来并通过显示文本的方式向用户打招呼</string>
+    <string name="settings_default_message">默认招呼语</string>
+    <string name="settings_custom">自定义</string>
+    <string name="settings_custom_description">(自定义招呼语)</string>
+    <string name="settings_default_message_description">(你好)</string>
+    <string name="settings_voice_greeter_description">打开之后temi也会用语音打招呼</string>
+    <string name="settings_voice_greeter">语音打招呼</string>
+    <string name="settings_open_app_list">打开应用列表</string>
+    <string name="custom_input_hint">输入文本</string>
+    <string name="custom_alert">文本不能为空</string>
+    <string name="settings_location_announcements">地点播报</string>
+    <string name="settings_location_announcements_describe">temi将播报他要去某个地点，以及何时到达</string>
+    <string name="go_to_start_tts">我要去%s了</string>
+    <string name="go_to_complete_tts">我到%s了</string>
+
+    <!-- DeviceListActivity -->
+    <string name="scanning">Scanning for devices...</string>
+    <string name="select_device">Select a device to connect</string>
+    <string name="none_paired">No devices have been paired</string>
+    <string name="none_found">No devices found</string>
+    <string name="title_paired_devices">Paired Devices</string>
+    <string name="title_other_devices">Other Available Devices</string>
+    <string name="button_scan">Scan for devices</string>
+
+    <string name="btn_send">Send</string>
+    <string name="btn_send2">Send2</string>
+
+    <!-- Bluetooth -->
+    <string name="bt_title">Bluetooth</string>
+    <string name="bt_state_init">initializing</string>
+    <string name="bt_state_wait">waiting.. (select a device manually)</string>
+    <string name="bt_state_connect">connecting</string>
+    <string name="bt_state_connected">connected</string>
+    <string name="bt_state_error">error</string>
+    <string name="bt_not_enabled_leaving">Bluetooth is not enabled. Set the bluetooth on at phone settings.</string>
+    <string name="bt_cmd_sending_error">Transaction failed</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="discoverable_desc">Action request discoverable.</string>
+    <string name="discoverable_fail_desc">Cannot set discoverable.</string>
+
+    <string name="play">Play</string>
+    <string name="pause">Pause</string>
+    <string name="paused">Paused…</string>
+    <string name="playing">Playing…</string>
+
+
+</resources>

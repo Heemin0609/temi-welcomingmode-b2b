@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="feature_play">
+        <item>@string/feature_take_photo</item>
+        <item>@string/feature_follow</item>
+        <item>@string/feature_play_weather</item>
+        <item>@string/feature_play_youtube</item>
+        <item>@string/feature_play_airdroid</item>
+    </string-array>
+
+    <string-array name="feature">
+        <item>@string/feature_walk</item>
+        <item>@string/feature_call</item>
+        <item>@string/feature_play</item>
+    </string-array>
+</resources>
