@@ -24,7 +24,7 @@ class MainActivity : AppCompatActivity() {
         var tablenum = 0
 
         //myRef.child("signal").setValue(2)
-        //myRef.addValueEventListener 이게 원래 쓰던거
+        //myRef.addValueEventListener 이게 원래 쓰던거 ㅎㅎㅎㅎㅎㅎㅎ
 
         myRef.addValueEventListener(object : ValueEventListener {
             override fun onDataChange(dataSnapshot: DataSnapshot) {
